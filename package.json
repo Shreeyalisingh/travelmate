@@ -10,7 +10,7 @@
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "vaibhav bhargav",
+  "author": "Shreeyali Singh",
   "license": "ISC",
   "description": "",
   "dependencies": {
