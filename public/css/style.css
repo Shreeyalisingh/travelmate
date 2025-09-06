@@ -1,0 +1,256 @@
+/* Custom carousel size */
+.custom-carousel {
+    width: 99vw;
+    margin: 0 auto;
+    height: 520px;
+}
+.custom-carousel .carousel-inner,
+.custom-carousel .carousel-item,
+.custom-carousel img {
+    height: 520px;
+    max-height: 520px;
+
+}
+.why{
+    text-align: center !important;
+    
+    }
+.why p{
+    font-size: 50px;
+}
+.box{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: #002C3E;
+    color: #ebebeb;
+    padding: 30px 5px 5px 5px;
+}
+.box img{
+    height: 80px;
+    width: 80px;
+}
+.box span{
+    font-size: 30px;
+}
+.product{
+    background-color: white !important;
+    padding: 0%;
+    border: none;
+    color: black;
+}
+.product img:hover{
+    opacity: 0.8;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content p{
+    font-size: medium !important;
+}
+.re{
+    padding: 20px 20px 20px 20px;
+    font-size: larger;
+    text-align: left;
+}
+.re p{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans',sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex:1;
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 2rem;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-info-socials{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-info-socials i{
+    font-size: 1.4rem;
+    margin-right: 1rem;
+}
+
+.f-info{
+    height: 8rem;
+    text-align: center;
+    display: flex;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+.w{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* cards*/
+.card{
+    border: none !important;
+    margin-bottom: 4rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0px !important;
+    margin-top: 1rem;
+}
+
+.card-text{
+    font-weight: 400;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+.add-btn{
+    background-color: #fe424d !important ;
+    color: white;
+    border: none !important;
+    border-radius: 5px;
+}
+
+/* show page */
+.show-img{
+    height: 30vh;
+}
+.btns{
+    display: flex;
+    align-items: space-between;
+}
+.show1{
+    margin-bottom: 20px !important;
+}
+
+/*map*/
+
+#map{
+    height:400px;
+    width:80vh;
+}
+#menu {
+    background: transparent;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#filters{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.filter{
+    text-align: center;
+    margin-right: 2rem;
+    opacity: 0.8;
+    
+}
+.filter p{
+    font-size: 0.85rem;
+}
+.filter:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.tax-info{
+   display: none;
+}
+.tax-toggle{
+    border: 1px solid gray;
+    border-radius: 1rem;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+
+/* media */
+
+/* mobile phone */
+@media (max-width: 576px) {
+    #map{
+        height: 200px !important;
+        width:200px !important;
+    }
+    #menu{
+        width: 100px;
+    }
+    .add-btn{
+       width: 30px;
+       font-size: smaller !important;
+       padding: 0px;
+    }
+}
+
+@media (min-width:577px) and (max-width:868px){
+    #map{
+        height: 300px;
+        width: 300px;
+    }
+}
+@media (min-width:869px) and (max-width:1003px) {
+    #map{
+        width:400px
+    }
+}
+
+
+
